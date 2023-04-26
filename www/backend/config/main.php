@@ -7,6 +7,7 @@ $params = array_merge(
 );
 
 return [
+    'name'=>'Backend : Test Lab',
     'id' => 'app-backend',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
