@@ -1,4 +1,4 @@
-.env
+#.env
 **/logs
 *.log
 data/mysql
@@ -35,15 +35,15 @@ composer.phar
 # phpunit itself is not needed
 phpunit.phar
 # local phpunit config
-yii2-pms/phpunit.xml
+www/phpunit.xml
 
 # vagrant runtime
-yii2-pms/.vagrant
+www/.vagrant
 
 # ignore generated files
-yii2-pms/frontend/web/index.php
-yii2-pms/frontend/web/index-test.php
-yii2-pms/frontend/web/robots.txt
-yii2-pms/backend/web/index.php
-yii2-pms/backend/web/index-test.php
-yii2-pms/backend/web/robots.txt
+#www/frontend/web/index.php
+#yii2-pms/frontend/web/index-test.php
+#yii2-pms/frontend/web/robots.txt
+#yii2-pms/backend/web/index.php
+#yii2-pms/backend/web/index-test.php
+#yii2-pms/backend/web/robots.txt
