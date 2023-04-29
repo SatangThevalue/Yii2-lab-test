@@ -37,7 +37,14 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        
+        // TODO(SaTangTheValue): add themes adminlte 3
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@app/views' => '@frontend/themes/adminlte3/views'
+                ]
+            ]
+        ],        
     ],
     'params' => $params,
 ];
